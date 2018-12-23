@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16670" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16670" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:40Z">
+      <class name="com.orangehrm.test.LoginClass">
+        <test-method status="PASS" signature="beforEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="beforEachMethodExecution" is-config="true" duration-ms="10341" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforEachMethodExecution -->
+        <test-method status="PASS" signature="verifyAdminLoginVerify()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="verifyAdminLoginVerify" duration-ms="4776" started-at="2018-12-22T04:20:34Z" finished-at="2018-12-22T04:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLoginVerify -->
+        <test-method status="PASS" signature="afterEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="afterEachMethodExecution" is-config="true" duration-ms="1511" started-at="2018-12-22T04:20:39Z" finished-at="2018-12-22T04:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachMethodExecution -->
+      </class> <!-- com.orangehrm.test.LoginClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
