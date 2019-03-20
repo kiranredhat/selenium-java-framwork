@@ -10,8 +10,8 @@ import org.testng.annotations.BeforeTest;
 public class BaseSelenium {
 	@BeforeMethod
 	public void beforEachMethodExecution(){
-	//	System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\Browser\\chromedriver.exe");
-	//	WebDriverFactory.DR=new ChromeDriver();      // Launch browser
+		System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\Browser\\chromedriver.exe");
+		WebDriverFactory.DR=new ChromeDriver();      // Launch browser
 		WebDriverFactory.DR.get("http://127.0.0.1/orangehrm-3.3.1/symfony/web/index.php/auth/login"); // Navigate to URL
 		WebDriverFactory.DR.manage().window().maximize();
 	
@@ -22,3 +22,4 @@ public class BaseSelenium {
 	}
 
 }
+

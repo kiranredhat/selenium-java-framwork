@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16670" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:40Z">
+  <suite name="Default suite" duration-ms="37156" started-at="2018-12-26T11:01:52Z" finished-at="2018-12-26T11:02:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16670" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:40Z">
+    <test name="Default test" duration-ms="37156" started-at="2018-12-26T11:01:52Z" finished-at="2018-12-26T11:02:29Z">
       <class name="com.orangehrm.test.LoginClass">
-        <test-method status="PASS" signature="beforEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="beforEachMethodExecution" is-config="true" duration-ms="10341" started-at="2018-12-22T04:20:24Z" finished-at="2018-12-22T04:20:34Z">
+        <test-method status="PASS" signature="beforEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="beforEachMethodExecution" is-config="true" duration-ms="24913" started-at="2018-12-26T11:01:52Z" finished-at="2018-12-26T11:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforEachMethodExecution -->
-        <test-method status="PASS" signature="verifyAdminLoginVerify()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="verifyAdminLoginVerify" duration-ms="4776" started-at="2018-12-22T04:20:34Z" finished-at="2018-12-22T04:20:39Z">
+        <test-method status="PASS" signature="verifyAdminLoginVerify()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="verifyAdminLoginVerify" duration-ms="8695" started-at="2018-12-26T11:02:17Z" finished-at="2018-12-26T11:02:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminLoginVerify -->
-        <test-method status="PASS" signature="afterEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="afterEachMethodExecution" is-config="true" duration-ms="1511" started-at="2018-12-22T04:20:39Z" finished-at="2018-12-22T04:20:40Z">
+        <test-method status="PASS" signature="afterEachMethodExecution()[pri:0, instance:com.orangehrm.test.LoginClass@5d5eef3d]" name="afterEachMethodExecution" is-config="true" duration-ms="3514" started-at="2018-12-26T11:02:25Z" finished-at="2018-12-26T11:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachMethodExecution -->
