@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.test.AddUserTest">
+      <class name="com.orangehrm.test.LoginTest">
         <methods>
-          <include name="verifySuccessAddUserPage" invocation-numbers="0"/>
+          <include name="verifySocialMediaLink"/>
         </methods>
-      </class> <!-- com.orangehrm.test.AddUserTest -->
+      </class> <!-- com.orangehrm.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

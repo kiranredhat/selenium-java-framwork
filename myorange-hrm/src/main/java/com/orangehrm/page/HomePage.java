@@ -35,7 +35,6 @@ public HomePage isHomePageLoaded()
 	wt.until(ExpectedConditions.visibilityOf(elmPIM));
 	wt.until(ExpectedConditions.visibilityOf(elmLeave));
 	wt.until(ExpectedConditions.visibilityOf(elmTime));
-	Assert.assertEquals(elmWelcomeLink.getText(), "Welcome");
 	return this;
 }
 

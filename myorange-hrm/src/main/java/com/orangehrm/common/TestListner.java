@@ -26,10 +26,13 @@ public class TestListner implements IInvokedMethodListener {
 		if (arg0.isTestMethod())
 		{
 //	Normal Chrome Browser
-//			System.setProperty("webdriver.chrome.driver" ,"F:\\Selenium\\Browser\\chromedriver.exe");
-//			WebDriverFactory.setdr(new ChromeDriver());
-//			WebDriverFactory.getdr().get("http://127.0.0.1/orangehrm-3.3.1/symfony/web/index.php/auth/login");
-//			WebDriverFactory.getdr().manage().window().maximize();	
+			System.setProperty("webdriver.chrome.driver" ,"F:\\Selenium\\Browser\\chromedriver.exe");
+			WebDriverFactory.setdr(new ChromeDriver());
+			WebDriverFactory.getdr().get("http://127.0.0.1/orangehrm-3.3.1/symfony/web/index.php/auth/login");
+			WebDriverFactory.getdr().manage().window().maximize();	
+			
+//	Jenkin
+	 
 			
 			
 				
